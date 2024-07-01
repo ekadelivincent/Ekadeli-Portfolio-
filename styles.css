@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: sans-serif;
+  position: relative;
+}
+.section {
+  height: 100vh;
+  transition: transform 1s ease;
+}
+
+#page1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+  color: aliceblue;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: dotted;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.logo_png {
+  width: 200px;
+  height: 38.5px;
+  object-fit: contain;
+}
+
+.Intro_details {
+  float: left;
+  width: 600px;
+}
+
+.Intro_text {
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 83.6px;
+  width: 500px;
+  height: 250px;
+  margin-top: 130px;
+  margin-left: 90px;
+}
+
+.btn_1 {
+  height: 45px;
+  width: 250px;
+  margin-top: 80px;
+  margin-left: 90px;
+  background-color: black;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18.5px;
+  transition-duration: 0.5s;
+}
+
+.btn_1:hover {
+  border-color: #808080;
+  background-color: #ffffff;
+  color: #000000;
+}
+.author_picture {
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  float: right;
+}
+
+#me {
+  color: #ffffff;
+  margin-top: 45px;
+  margin-left: 170px;
+}
+
+#me::before {
+  color: #ffffff;
+  font: var(--fa-solid fa-tent-arrows-down);
+}
+
+.back_info {
+  margin-top: 50px;
+  margin-left: 90px;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 83.6px;
+}
+
+.content {
+  float: right;
+  margin-right: 90px;
+  margin-top: 90px;
+}
+
+.edu_info {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.edu_list {
+  margin-top: 25px;
+  color: #808080;
+}
+
+.work_info {
+  color: #ffffff;
+  font-size: 45px;
+  margin-top: 70px;
+}
+
+.work_list {
+  margin-top: 25px;
+  color: #808080;
+}
+
+#intro_portfolio {
+  height: 100vh;
+  transition: transform 1s ease;
+}
+
+.hook_statement {
+  width: 600px;
+  margin-left: 90px;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 83.6px;
+  float: left;
+}
+
+.rice_smile {
+  margin-left: 90px;
+  float: right;
+}
+
+#art {
+  margin-left: 90px;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 83.6px;
+  float: left;
+}
+
+.carousel-inner div {
+  height: 650px;
+  object-fit: cover;
+}
+
+#reach {
+  width: 450px;
+  margin-top: 55px;
+  margin-left: 90px;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 83.6px;
+  float: left;
+}
+
+footer {
+  height: 100vh;
+  transition: transform 1s ease;
+  display: inline-block;
+}
+
+.ress {
+  margin-top: 150px;
+  margin-left: 90px;
+}
+
+.mailer {
+  justify-content: center;
+  margin-left: 585px;
+}
+
+.numberr {
+  justify-content: end;
+  margin-left: 1085px;
+}
+
+#Add {
+  margin-top: 285px;
+  color: #ffffff;
+}
+
+#Mail {
+  color: #ffffff;
+}
+
+#Phone {
+  color: #ffffff;
+}
+
+#book {
+  margin-top: 50px;
+  margin-left: 190px;
+  height: 400px;
+  width: 400px;
+  object-fit: scale-down;
+}
+
+#lily {
+  box-shadow: inset;
+}
+
+#greenneon {
+  box-shadow: #000000;
+}
